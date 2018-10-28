@@ -13,4 +13,7 @@ object Tutorial extends App {
     }
   }
 
+  // Testing passing functions as parameters.
+  callFunctionNTimes(3, saySomething())
+
 }
