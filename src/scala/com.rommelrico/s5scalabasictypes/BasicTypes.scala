@@ -10,4 +10,7 @@ object BasicTypes extends App {
   println(s"x = $x and is a ${x.getClass}")
   println(s"y = $y and is a ${y.getClass}")
 
+  val z: Byte = 10
+  println(s"z = $z and is a ${z.getClass}")
+
 }
