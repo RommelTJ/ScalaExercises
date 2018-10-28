@@ -1,5 +1,9 @@
 package com.rommelrico
 
-object Tutorial extends App {
-  println("Hello World!")
+object Tutorial {
+
+  def main(args: Array[String]): Unit = {
+    println("Hello World!")
+  }
+
 }
