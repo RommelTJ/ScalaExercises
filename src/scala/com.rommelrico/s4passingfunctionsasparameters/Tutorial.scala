@@ -6,4 +6,11 @@ object Tutorial extends App {
     println("Hi everyone!")
   }
 
+  // Calls a function multiple times.
+  def callFunctionNTimes(n: Int, callback: => Unit) {
+    for (x <- 0.until(n)) {
+      callback
+    }
+  }
+
 }
