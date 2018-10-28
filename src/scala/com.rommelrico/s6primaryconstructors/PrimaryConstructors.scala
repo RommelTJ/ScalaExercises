@@ -6,8 +6,12 @@ object PrimaryConstructors extends App {
   val t = new StringHolder("This is a test")
   println("End")
 
+  println("Start")
+  val y = new StringHolder()
+  println("End")
+
 }
 
-class StringHolder(text: String) {
+class StringHolder(text: String = "lorem ipsum") {
   println(s"Holding string of ${text.length} chars")
 }
