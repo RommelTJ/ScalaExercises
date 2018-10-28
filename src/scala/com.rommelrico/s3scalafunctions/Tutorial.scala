@@ -8,5 +8,6 @@ object Tutorial extends App {
   // Testing
   val y = increment(12)
   println(s"Y is: $y")
+  println(s"Increment type is: ${increment.getClass.getName}") // It's a Lambda!
 
 }
