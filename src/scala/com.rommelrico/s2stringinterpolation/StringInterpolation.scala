@@ -7,6 +7,11 @@ object StringInterpolation extends App {
   println(s"You are ${person.age} years old")
   println("You are " + person.age + " years old")
 
+  // C-style printf substitutions
+  val height = 1.9d
+  val name = "James"
+  println(f"$name%s is $height%2.2f meters tall")
+
 }
 
 case class Person(name: String, age: Int)
